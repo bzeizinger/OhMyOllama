@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		92A53C582CF8B23B00E42A6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A53C3E2CF8B23A00E42A6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A53C452CF8B23A00E42A6D;
+			remoteInfo = OhMyOllama;
+		};
+		92A53C622CF8B23B00E42A6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A53C3E2CF8B23A00E42A6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A53C452CF8B23A00E42A6D;
+			remoteInfo = OhMyOllama;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92A53C462CF8B23A00E42A6D /* OhMyOllama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OhMyOllama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A53C572CF8B23B00E42A6D /* OhMyOllamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhMyOllamaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A53C612CF8B23B00E42A6D /* OhMyOllamaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhMyOllamaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		92A53C482CF8B23A00E42A6D /* OhMyOllama */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OhMyOllama;
+			sourceTree = "<group>";
+		};
+		92A53C5A2CF8B23B00E42A6D /* OhMyOllamaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OhMyOllamaTests;
+			sourceTree = "<group>";
+		};
+		92A53C642CF8B23B00E42A6D /* OhMyOllamaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OhMyOllamaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92A53C432CF8B23A00E42A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A53C542CF8B23B00E42A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A53C5E2CF8B23B00E42A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92A53C3D2CF8B23A00E42A6D = {
+			isa = PBXGroup;
+			children = (
+				92A53C482CF8B23A00E42A6D /* OhMyOllama */,
+				92A53C5A2CF8B23B00E42A6D /* OhMyOllamaTests */,
+				92A53C642CF8B23B00E42A6D /* OhMyOllamaUITests */,
+				92A53C472CF8B23A00E42A6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92A53C472CF8B23A00E42A6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92A53C462CF8B23A00E42A6D /* OhMyOllama.app */,
+				92A53C572CF8B23B00E42A6D /* OhMyOllamaTests.xctest */,
+				92A53C612CF8B23B00E42A6D /* OhMyOllamaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92A53C452CF8B23A00E42A6D /* OhMyOllama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A53C6B2CF8B23B00E42A6D /* Build configuration list for PBXNativeTarget "OhMyOllama" */;
+			buildPhases = (
+				92A53C422CF8B23A00E42A6D /* Sources */,
+				92A53C432CF8B23A00E42A6D /* Frameworks */,
+				92A53C442CF8B23A00E42A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				92A53C482CF8B23A00E42A6D /* OhMyOllama */,
+			);
+			name = OhMyOllama;
+			packageProductDependencies = (
+			);
+			productName = OhMyOllama;
+			productReference = 92A53C462CF8B23A00E42A6D /* OhMyOllama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92A53C562CF8B23B00E42A6D /* OhMyOllamaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A53C6E2CF8B23B00E42A6D /* Build configuration list for PBXNativeTarget "OhMyOllamaTests" */;
+			buildPhases = (
+				92A53C532CF8B23B00E42A6D /* Sources */,
+				92A53C542CF8B23B00E42A6D /* Frameworks */,
+				92A53C552CF8B23B00E42A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92A53C592CF8B23B00E42A6D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92A53C5A2CF8B23B00E42A6D /* OhMyOllamaTests */,
+			);
+			name = OhMyOllamaTests;
+			packageProductDependencies = (
+			);
+			productName = OhMyOllamaTests;
+			productReference = 92A53C572CF8B23B00E42A6D /* OhMyOllamaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92A53C602CF8B23B00E42A6D /* OhMyOllamaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A53C712CF8B23B00E42A6D /* Build configuration list for PBXNativeTarget "OhMyOllamaUITests" */;
+			buildPhases = (
+				92A53C5D2CF8B23B00E42A6D /* Sources */,
+				92A53C5E2CF8B23B00E42A6D /* Frameworks */,
+				92A53C5F2CF8B23B00E42A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92A53C632CF8B23B00E42A6D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92A53C642CF8B23B00E42A6D /* OhMyOllamaUITests */,
+			);
+			name = OhMyOllamaUITests;
+			packageProductDependencies = (
+			);
+			productName = OhMyOllamaUITests;
+			productReference = 92A53C612CF8B23B00E42A6D /* OhMyOllamaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92A53C3E2CF8B23A00E42A6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					92A53C452CF8B23A00E42A6D = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					92A53C562CF8B23B00E42A6D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 92A53C452CF8B23A00E42A6D;
+					};
+					92A53C602CF8B23B00E42A6D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 92A53C452CF8B23A00E42A6D;
+					};
+				};
+			};
+			buildConfigurationList = 92A53C412CF8B23A00E42A6D /* Build configuration list for PBXProject "OhMyOllama" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92A53C3D2CF8B23A00E42A6D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 92A53C472CF8B23A00E42A6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92A53C452CF8B23A00E42A6D /* OhMyOllama */,
+				92A53C562CF8B23B00E42A6D /* OhMyOllamaTests */,
+				92A53C602CF8B23B00E42A6D /* OhMyOllamaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92A53C442CF8B23A00E42A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A53C552CF8B23B00E42A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A53C5F2CF8B23B00E42A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92A53C422CF8B23A00E42A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A53C532CF8B23B00E42A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A53C5D2CF8B23B00E42A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92A53C592CF8B23B00E42A6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92A53C452CF8B23A00E42A6D /* OhMyOllama */;
+			targetProxy = 92A53C582CF8B23B00E42A6D /* PBXContainerItemProxy */;
+		};
+		92A53C632CF8B23B00E42A6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92A53C452CF8B23A00E42A6D /* OhMyOllama */;
+			targetProxy = 92A53C622CF8B23B00E42A6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92A53C692CF8B23B00E42A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92A53C6A2CF8B23B00E42A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		92A53C6C2CF8B23B00E42A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OhMyOllama/OhMyOllama.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OhMyOllama/Preview Content\"";
+				DEVELOPMENT_TEAM = Y8288ZWNJ3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betannet.OhMyOllama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		92A53C6D2CF8B23B00E42A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OhMyOllama/OhMyOllama.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OhMyOllama/Preview Content\"";
+				DEVELOPMENT_TEAM = Y8288ZWNJ3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betannet.OhMyOllama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		92A53C6F2CF8B23B00E42A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8288ZWNJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betannet.OhMyOllamaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OhMyOllama.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OhMyOllama";
+			};
+			name = Debug;
+		};
+		92A53C702CF8B23B00E42A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8288ZWNJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betannet.OhMyOllamaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OhMyOllama.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OhMyOllama";
+			};
+			name = Release;
+		};
+		92A53C722CF8B23B00E42A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8288ZWNJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betannet.OhMyOllamaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OhMyOllama;
+			};
+			name = Debug;
+		};
+		92A53C732CF8B23B00E42A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8288ZWNJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.betannet.OhMyOllamaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OhMyOllama;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92A53C412CF8B23A00E42A6D /* Build configuration list for PBXProject "OhMyOllama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A53C692CF8B23B00E42A6D /* Debug */,
+				92A53C6A2CF8B23B00E42A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A53C6B2CF8B23B00E42A6D /* Build configuration list for PBXNativeTarget "OhMyOllama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A53C6C2CF8B23B00E42A6D /* Debug */,
+				92A53C6D2CF8B23B00E42A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A53C6E2CF8B23B00E42A6D /* Build configuration list for PBXNativeTarget "OhMyOllamaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A53C6F2CF8B23B00E42A6D /* Debug */,
+				92A53C702CF8B23B00E42A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A53C712CF8B23B00E42A6D /* Build configuration list for PBXNativeTarget "OhMyOllamaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A53C722CF8B23B00E42A6D /* Debug */,
+				92A53C732CF8B23B00E42A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92A53C3E2CF8B23A00E42A6D /* Project object */;
+}
