@@ -32,6 +32,9 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		92A53C482CF8B23A00E42A6D /* OhMyOllama */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			explicitFileTypes = {
+				chatView.swift = sourcecode.swift;
+			};
 			path = OhMyOllama;
 			sourceTree = "<group>";
 		};
